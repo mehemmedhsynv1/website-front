@@ -1,0 +1,106 @@
+.services-bar {
+    width: 440px;
+    height: 6px;
+    background-color: #f0eff7;
+    border-radius: 6px;
+}
+.services-text {
+    font-size: 14px;
+    font-family: "fira sans";
+}
+.services-div {
+    width: 440px;
+    margin-top: 30px;
+}
+.services-degree-bar1 {
+    width: 90%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #F3001D, #FFEF00);
+    border-radius: 6px;
+}
+.services-degree-bar2 {
+    width: 95%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #00B2F5, #4938F1);
+    border-radius: 6px;
+}
+.services-degree-bar3 {
+    width: 70%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #00F511, #2E9700);
+    border-radius: 6px;
+}
+.services-bar {
+    position: relative;
+}
+#services-text {
+    font-size: 14px;
+    font-family: "fira sans";
+    color: #2e2d2d;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.about-company-main {
+    gap: 110px;
+    position: relative;
+}
+.orange-cloud {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, orange, #fff);
+    box-shadow: 2px 2px 200px 50px orange;
+    z-index: -1;
+}
+.video-play-button {
+    width: 55px;
+    height: 55px;
+    background-color: #4f3dff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-play-button::after {
+    width: 120px;
+    height: 120px;
+    
+}
+.video-play-button {
+    animation: pulse-animation 2s infinite;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px #4f3dff;
+    }
+    100% {
+      box-shadow: 0 0 0 20px #ffffff;
+    }
+  }
+  
+.watch-video-div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+#watch-text {
+    font-family: "Roboto";
+    color: #2d2e2e;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1em;
+}

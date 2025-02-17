@@ -1,0 +1,77 @@
+.header {
+    height: 130px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "fira sans";
+    background-color: #fff;
+    box-shadow: 0 1px 12px 1px rgba(98, 96, 96, 0.1);
+    z-index: 5;
+}
+.header-underline {
+    display: flex;
+    justify-content: center;
+    width: 0px;
+    height: 3px;
+    background-color: #4f3dff;
+    transition: 0.3s;
+}
+.link-div:hover .header-underline{
+    width: 100%;
+}
+#company-name {
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.link {
+    height: 100px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #101130;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.link-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar-links {
+    display: flex;
+    gap: 30px;
+}
+.social-icons-div {
+    color: #b1b1b1;
+    display: flex;
+    gap: 16px;
+}
+.header-r-div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 100px;
+}
+.basket-div {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.line-span {
+    display: block;
+    height: 30px;
+    width: 2px;
+    background-color: #b1b1b1;
+    margin: 0 20px;
+}
+.header-icons-div {
+    display: flex;
+    align-items: center;
+}

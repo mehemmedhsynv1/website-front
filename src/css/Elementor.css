@@ -1,0 +1,46 @@
+.elementor-main-div {
+    width: 80%;
+    background-image: url('../images/elementor-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.elementor-icon {
+    width: 88px;
+    height: 82px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 43px;
+    color: #3C2CD6;
+    margin-right: 20px;
+    box-shadow: 0 19px 18px rgba(0, 15, 40, .23);
+}
+.elementor-numbers {
+    font-size: 48px;
+    font-family: "fira sans";
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+}
+#elementor-texts {
+    font-size: 17px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.6;
+    font-family: "Roboto";
+    font-weight: 300;
+    width: 80%;
+    margin-top: 10px;
+}
+.elementor-boxes-div {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 40px;
+    border: 1px solid #ffffff2e;
+    width: 40%;
+    align-items: center;
+}

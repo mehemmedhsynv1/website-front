@@ -1,0 +1,117 @@
+.about-texts-main {
+    display: flex;
+    margin-bottom: 20px;
+}
+.about-nums {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #00B3F5, #4938F1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    font-family: "Roboto";
+    color: #fff;
+    box-shadow: 0 10px 13px rgba(73, 56, 241, 0.21);
+}
+#about-titles {
+    color: #454347;
+    font-family: "Roboto";
+    font-weight: 400;
+    width: 80%;
+    line-height: 29px;
+}
+.about-div {
+    margin-top: 30px;
+}
+.about-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+#our-services-text {
+    font-family: "fira sans";
+    font-weight: 600;
+    color: #2e2d2d;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    width: 120px;
+}
+.our-services-btn {
+    position: relative;
+    width: 49px;
+    height: 49px;
+    background-color: #e4e0ff;
+    border-radius: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.our-services-btn:hover {
+    width: 150px;
+    background-color: #4938F1;
+}
+.our-services-btn:hover #our-services-text {
+    color: #fff;
+    left: 20px;
+}
+.about-company-main {
+    display: flex;
+    justify-content: center;
+}
+#choose-company {
+    width: 80%;
+}
+#features-grey-text {
+    width: 500px;
+}
+
+
+@media screen and (max-width: 1400px) and (min-width: 1301px) {
+    #choose-company {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
+    .about-img-div {
+        height: auto;
+        width: 47%;
+    }
+    #about-img {
+        height: auto;
+        width: 100%;
+    }
+    #choose-company {
+        width: 90%;
+        font-size: 39px;
+    }
+}
+
+
+
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+    .about-img-div {
+        height: auto;
+        width: 44%;
+    }
+    #about-img {
+        height: auto;
+        width: 100%;
+    }
+    #choose-company {
+        width: 90%;
+        font-size: 38px;
+    }
+    #about-titles {
+        font-size: 15px;
+    }
+    #features-grey-text {
+        font-size: 16px;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
