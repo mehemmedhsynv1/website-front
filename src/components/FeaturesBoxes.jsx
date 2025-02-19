@@ -9,6 +9,7 @@ function FeaturesBoxes({ box }) {
   const changeShow = () =>{
     setShow(!show);
   }
+
   const { name, image, title } = box;
   return (
 

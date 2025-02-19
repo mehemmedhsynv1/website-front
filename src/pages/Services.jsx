@@ -21,21 +21,33 @@ const Services = ({ refProp }) => {
                 <p id='awesome-features'>Awesome Services</p>
                 <p style={{fontSize:"55px", color:"#4f3dff"}}>.</p>
             </div>
-            <p id='choose-company' style={{width:"40%"}}>Our Awesome <span style={{color:"#4f3dff"}}>Services</span> To Give You Success.</p>
-            <p style={{marginBottom:"20px"}} id='features-grey-text'>Our team have designed game changing products, consulted for companies as well.</p>
+            <p id='choose-company'>Our Awesome <span style={{color:"#4f3dff"}}>Services</span> To Give You Success.</p>
+            <p style={{marginBottom:"20px", textAlign:"center"}} id='features-grey-text'>Our team have designed game changing products, consulted for companies as well.</p>
         </div>
         <Swiper
             // install Swiper modules
             modules={[Navigation, Scrollbar, A11y]}
-            spaceBetween={50}
+            spaceBetween={0}
             slidesPerView={3}
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
+            breakpoints={{
+                300: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1150: {
+                    slidesPerView: 3,
+                }
+            }}
         >   
         <div>
+            
             {
                 servicesData?.map((data) => (
                     <SwiperSlide>

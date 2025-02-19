@@ -1,6 +1,7 @@
 footer {
     background-image: url('../images/bg-footer.jpg');
     padding: 65px 0 60px;
+    margin-top: 60px;
 }
 #company-name-footer {
     font-size: 28px;
@@ -10,7 +11,7 @@ footer {
     margin-bottom: 10px;
 }
 .footer-div {
-    width: 20%;
+    width: 30%;
 }
 .footer-main-div {
     display: flex;
@@ -95,4 +96,17 @@ footer {
     display: flex;
     align-items: center;
     margin-top: 20px;
+}
+
+
+
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+    .footer-main-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-div {
+        width: 80%;
+    }
 }

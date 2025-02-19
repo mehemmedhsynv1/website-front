@@ -1,6 +1,6 @@
 import './App.css';
 import EasySteps from './components/EasySteps';
-import Elementor from './components/Elementor';
+// import Elementor from './components/Elementor';
 import Header from './components/Header';
 import About from './pages/About';
 import AboutCompany from './pages/AboutCompany';
@@ -8,7 +8,7 @@ import Features from './pages/Features';
 import Home from './pages/Home';
 import { useRef } from 'react';
 import Services from './pages/Services';
-import ClientsReview from './components/ClientsReview';
+// import ClientsReview from './components/ClientsReview';
 import Footer from './components/Footer';
 
 function App() {
@@ -25,6 +25,8 @@ function App() {
     }
   };
 
+
+
   return (
     <div className="App">
       <Header scrollToSection={scrollToSection} homeRef={homeRef} featuresRef={featuresRef} aboutCompanyRef={aboutCompanyRef} servicesRef={servicesRef} clientsReviewRef={clientsReviewRef} />
@@ -32,10 +34,10 @@ function App() {
       <Features refProp={featuresRef} />
       <About />
       <AboutCompany refProp={aboutCompanyRef} />
-      <Elementor />
+      {/* <Elementor /> */}
       <EasySteps />
       <Services refProp={servicesRef} />
-      <ClientsReview refProp={clientsReviewRef} />
+      {/* <ClientsReview refProp={clientsReviewRef} /> */}
       <Footer />
     </div>
   );

@@ -39,6 +39,17 @@
     border: none;
     cursor: pointer;
 }
+.link-slide {
+    height: 50px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #101130;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
 .link-div {
     display: flex;
     flex-direction: column;
@@ -74,4 +85,46 @@
 .header-icons-div {
     display: flex;
     align-items: center;
+}
+.left-slide-div {
+    /* display: none; */
+    position: sticky;
+    padding-top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    background-color: #fff;
+    height: 100vh;
+    visibility: hidden;
+}
+.hamburger-menu {
+    font-size: 35px;
+    display: none;
+}
+.language-btn-div > button {
+    border: none;
+    padding: 4px 6px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.language-btn-div {
+    margin-left: 30px;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar-links {
+        display: none;
+    }
+    .header-icons-div {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
+    
+    
 }

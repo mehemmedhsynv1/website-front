@@ -1,0 +1,58 @@
+{
+    "navbar_buttons" : {
+        "Home" : "Ana Səhifə",
+        "Features" : "Xüsusiyyətlərimiz",
+        "About_Us" : "Haqqımızda",
+        "Our_Services" : "Xidmətlərimiz",
+        "Testimonials" : "Rəylər"    
+    },
+    "home_texts" : {
+        "home_text" : "Öyrən, yarat və",
+        "home_purple" : "uğura doğru irəlilə!",
+        "home_button" : "Xidmətlərimizdən yararlanın"
+    },
+    "features_texts" : {
+        "awesome_features" : "Əsas Üstünlüklər",
+        "choose_company" : "IT Xidmət Şirkəti",
+        "choose_company_purple" : "Ən Yaxşı",
+        "features_big_text" : "Üstünlükl",
+        "features_grey_text" : "Sizin IT sistemlərinizi problemsiz işlək vəziyyətdə saxlayan IT şirkəti"
+    },
+    "services" : [
+        {
+            "services_name" : "Texniki Dəstək",
+            "services_title" : "Texniki Dəstək xidmətimiz, IT infrastrukturunuzun problemlərini sürətli və effektiv şəkildə həll edərək, işinizin fasiləsiz davam etməsini təmin edir. Biz 7/24 dəstək, uzaqdan və yerində xidmətlər təklif edirik."
+        },
+        {
+            "services_name" : "Biznes Həlləri",
+            "services_title" : "Biznes ehtiyaclarınıza uyğun özəl IT həlləri təqdim edərək, əməliyyatlarınızı optimallaşdırır və daha səmərəli hala gətiririk. İstər kiçik, istərsə də böyük müəssisələr üçün güvənli, çevik və miqyaslana bilən həllər təklif edirik."
+        },
+        {
+            "services_name" : "Kiber Təhlükəsizlik",
+            "services_title" : "Davamlı monitorinq, şəbəkə təhlükəsizliyi, proaktiv hücum aşkarlama və verilənlərin şifrələnməsi ilə təhlükəsizlik risklərini minimuma endirir və şirkətinizin rəqəmsal mühitində təhlükəsizliyi təmin edirik."
+        }
+    ],
+    "about_heading_texts" : {
+        "about_big_text" : "Haqqımı",
+        "awesome_features" : "Niyə Bizim Şirkəti Seçməlisiniz?",
+        "choose_company" : "IT Komandasıyıq.",
+        "choose_company_purple" : "Biz Təcrübəli",
+        "features_grey_text" : "Bədəninizin sağalma qabiliyyətini optimallaşdırmaqla bir çox xroniki xəstəliklərin qarşısını almaq olar."
+    },
+    "about_texts" : [
+        {
+            "id" : 1,
+            "about_text" : "PoladTech MMC, sahəsində təcrübəli mütəxəssislərdən ibarət komandası ilə müştərilərinə qabaqcıl IT həlləri təqdim edir."
+        },
+        {
+            "id" : 2,
+            "about_text" : "Biz, hər bir biznesin ehtiyaclarına uyğun güvənli, miqyaslana bilən və çevik IT həlləri təklif edirik."
+        },
+        {
+            "id" : 3,
+            "about_text" : "Biz, hər zaman müştərilərimizin texnoloji mükəmməlliyini artırmaq və onların rəqəmsal dünyada uğur qazanmasını təmin etmək üçün çalışırıq."
+        }
+    ],
+    "our_services_button" : "Xidmətlərimiz"
+}
+

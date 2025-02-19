@@ -3,19 +3,30 @@ import '../css/Features.css';
 import FeaturesBoxes from '../components/FeaturesBoxes';
 import { boxes } from '../data/data';
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { setLanguage } from '../redux/slices/languageSlice';
+import translations from '../locales/translation';
 
 function Features({ refProp }) {
+
+    const dispatch = useDispatch();
+    const language = useSelector((state) => state.language.language);
+    const t = translations[language];
+
   return (
     <div ref={refProp} className='features-main-div'>
         <div className='features-texts-div'>
-            <p id='features-big-text'>Features</p>
+            <p id='features-big-text'>{t.features_texts.features_big_text}</p>
             <div className='awesome-features-div'>
                 <p style={{fontSize:"55px", color:"#4f3dff"}}>.</p>
-                <p id='awesome-features'>Awesome features</p>
+                <p id='awesome-features'>{t.features_texts.awesome_features}</p>
                 <p style={{fontSize:"55px", color:"#4f3dff"}}>.</p>
             </div>
-            <p id='choose-company'>Choose <span style={{color:"#4f3dff"}}>The Best</span> IT Service Company</p>
-            <p id='features-grey-text'>An IT firm or MSP who keeps your IT running smoothly.</p>
+            <p id='choose-company'><span style={{color:"#4f3dff"}}>{t.features_texts.choose_company_purple}</span> {t.features_texts.choose_company}</p>
+            <div>
+                <p style={{textAlign:"center"}} id='features-grey-text'>{t.features_texts.features_grey_text}</p>
+            </div>
+            
         </div>
         <div className='features-boxes'>
           {

@@ -66,3 +66,10 @@
     font-family: "fira sans";
     font-size: 16px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .services-boxes-main {
+        margin: 20px 30px;
+    }
+}

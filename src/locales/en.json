@@ -1,0 +1,58 @@
+{
+    "navbar_buttons" : {
+        "Home" : "Home",
+        "Features" : "Features",
+        "About_Us" : "About Us",
+        "Our_Services" : "Our Services",
+        "Testimonials" : "Testimonials"    
+    },
+    "home_texts" : {
+        "home_text" : "Learn, Create and",
+        "home_purple" : "Progress to Success!",
+        "home_button" : "Take advantage of our services"
+    },
+    "features_texts" : {
+        "awesome_features" : "Main advantages",
+        "choose_company" : "IT Company",
+        "choose_company_purple" : "The Best",
+        "features_big_text" : "Features",
+        "features_grey_text" : "An IT Company That Keeps Your IT Systems Running Smoothly"
+    },
+    "services" : [
+        {
+            "services_name" : "Technical Support",
+            "services_title" : "Our Technical Support service solves the problems of your IT infrastructure quickly and effectively, ensuring that you can continue your business without interruption. We offer 74 support, remote and2 services."
+        },
+        {
+            "services_name" : "Business Solutions",
+            "services_title" : "We optimize your operations and make them more efficient by providing customized IT solutions tailored to your business needs. We offer secure, flexible and scalable solutions for both small and large enterprises."
+        },
+        {
+            "services_name" : "Cyber Security",
+            "services_title" : "With continuous monitoring, network security, proactive attack detection and data encryption, we minimize security risks and ensure security in your company's digital environment."
+        }
+    ],
+    "about_heading_texts" : {
+        "about_big_text" : "About",
+        "awesome_features" : "Why You choose our company?",
+        "choose_company" : "It Specialities",
+        "choose_company_purple" : "We Team of Experience",
+        "features_grey_text" : "By optimizing your body’s innate capacity to heal, many chronic diseases can be mitigated."
+    },
+    "about_texts" : [
+        {
+            "id" : 1,
+            "about_text" : "PoladTech LLC provides advanced IT solutions to its clients with its team of experienced specialists."
+        },
+        {
+            "id" : 2,
+            "about_text" : "We offer reliable, scalable and flexible IT solutions to suit the needs of every business."
+        },
+        {
+            "id" : 3,
+            "about_text" : "We are always working to enhance our clients' technological excellence and ensure they succeed in the digital world."
+        }
+    ],
+    "our_services_button" : "Our Services"
+
+}

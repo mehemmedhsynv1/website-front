@@ -10,8 +10,8 @@ function EasyStepsBoxes({ oneData }) {
         {
         id == 2 ? 
         (
-    <div style={{flexDirection:"row-reverse"}} className='easy-step-boxes'>
-        <div style={{width:'25%', marginLeft:"30px"}}>
+    <div className='easy-step-boxes2'>
+        <div className='reverse-div'>
             <p id='easy-s-name'>{name}</p>
             <p id='easy-s-title'>{title}</p>
             <div className='our-services-btn'>
@@ -25,8 +25,8 @@ function EasyStepsBoxes({ oneData }) {
             </div>
             <div className='bottom-line'></div>
         </div>
-        <div style={{display:"flex", alignItems:"center"}}>
-            <img src={image} alt="" />
+        <div className='easy-step-img-div' style={{display:"flex", alignItems:"center"}}>
+            <img className='easy-step-img' src={image} alt="" />
             <div className='easy-s-icon-div'>
                 <img src={iconImg} alt="" />
             </div>
@@ -35,7 +35,7 @@ function EasyStepsBoxes({ oneData }) {
           )  : (
             
             <div className='easy-step-boxes'>
-                <div style={{width:'25%', marginLeft:"150px"}}>
+                <div className='easy-name-title'>
                     <p id='easy-s-name'>{name}</p>
                     <p id='easy-s-title'>{title}</p>
                     <div className='our-services-btn'>
@@ -45,8 +45,8 @@ function EasyStepsBoxes({ oneData }) {
                 <div className='easy-steps-arrow'>
                     <FaArrowRightLong />
                 </div>
-                <div style={{display:"flex", alignItems:"center"}}>
-                    <img src={image} alt="" />
+                <div className='easy-step-img-div' style={{display:"flex", alignItems:"center"}}>
+                    <img className='easy-step-img' src={image} alt="" />
                     <div className='easy-s-icon-div'>
                         <img src={iconImg} alt="" />
                     </div>

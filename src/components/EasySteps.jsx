@@ -13,8 +13,8 @@ function EasySteps() {
                 <p id='awesome-features'>How it Works</p>
                 <p style={{fontSize:"55px", color:"#4f3dff"}}>.</p>
             </div>
-            <p id='choose-company' style={{width:"35%"}}>We Have Some <span style={{color:"#4f3dff"}}>Easy Steps</span> To Process</p>
-            <p style={{marginBottom:"80px"}} id='features-grey-text'>We shows only the best websites and portfolios built completely.</p>
+            <p id='choose-company'>We Have Some <span style={{color:"#4f3dff"}}>Easy Steps</span> To Process</p>
+            <p style={{marginBottom:"80px", textAlign:"center"}} id='features-grey-text'>We shows only the best websites and portfolios built completely.</p>
         </div>
         <div>
           {

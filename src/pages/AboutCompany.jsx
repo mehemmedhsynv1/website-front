@@ -8,10 +8,10 @@ function AboutCompany({ refProp }) {
   return (
     <div ref={refProp} className='about-company-main'>
         <div className='orange-cloud'></div>
-        <div>
-            <img src={AboutCompanyImg} alt="" />
+        <div className='about-company-img-div'>
+            <img className='about-company-img' src={AboutCompanyImg} alt="" />
         </div>
-        <div>
+        <div className='solution-div'>
         <div style={{alignItems:"flex-start"}} className='features-texts-div'>
             <p id='features-big-text'>About</p>
             <div className='awesome-features-div'>
@@ -19,11 +19,11 @@ function AboutCompany({ refProp }) {
                 <p id='awesome-features'>About our IT Company</p>
                 <p style={{fontSize:"55px", color:"#4f3dff"}}>.</p>
             </div>
-            <p style={{textAlign:"left", width:"80%"}} id='choose-company'>We Are The <span style={{color:"#4f3dff"}}>Best</span> IT Solution & Services</p>
-            <p style={{width:"500px"}} id='features-grey-text'>Over 39,000 people work for us in more than 70 countries all This breadth of global coverage, combined with specialist.</p>
+            <p style={{textAlign:"left"}} id='choose-company'>We Are The <span style={{color:"#4f3dff"}}>Best</span> IT Solution & Services</p>
+            <p id='features-grey-text'>Over 39,000 people work for us in more than 70 countries all This breadth of global coverage, combined with specialist.</p>
         </div>
         <div>
-            <div className='services-div'>
+            {/* <div className='services-div'>
                 <div className='services-bar'>
                     <div className='services-degree-bar1'></div>
                 </div>
@@ -31,8 +31,8 @@ function AboutCompany({ refProp }) {
                     <p id='services-text'>UI/UX Design</p>
                     <p id='services-text'>90%</p>
                 </div>
-            </div>
-            <div className='services-div'>
+            </div> */}
+            {/* <div className='services-div'>
                 <div className='services-bar'>
                     <div className='services-degree-bar2'></div>
                 </div>
@@ -41,8 +41,8 @@ function AboutCompany({ refProp }) {
                     <p id='services-text'>95%</p>
                 </div>
                 
-            </div>
-            <div className='services-div'>
+            </div> */}
+            {/* <div className='services-div'>
                 <div className='services-bar'>
                     <div className='services-degree-bar3'></div>
                 </div>
@@ -50,7 +50,7 @@ function AboutCompany({ refProp }) {
                     <p id='services-text'>Web Development</p>
                     <p id='services-text'>70%</p>
                 </div>
-            </div>
+            </div> */}
             <div className='watch-video-div'>
                 <div className='video-play-button'>
                     <FaPlay style={{color:"#fff", fontSize:"18px"}} />
